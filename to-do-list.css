@@ -1,0 +1,42 @@
+.add-task{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    padding: 12px;
+    font-weight: bold;
+}
+.delete{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color:Red;
+    padding: 12px;
+    font-weight: bold;
+}
+.js-input{
+    padding: 10px;
+}
+.js-input-date{
+    box-sizing: border-box;
+    padding:10px;
+}
+.js-to-do,.input-grid{
+    display: grid;
+    grid-template-columns:200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.js-to-do{
+    margin-bottom: 10px;
+}
+.input-grid{
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+.name{
+    display: block;
+    font-size: 15pxpx;
+    margin-left: 10px;
+}
